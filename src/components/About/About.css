@@ -1,0 +1,91 @@
+/* Resetting default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Setting box-sizing to border-box for easier sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+
+header h1 {
+  background-color: white;
+  color: #fa862d;
+  padding: 20px;
+  text-align: center;
+  font-size: 2.2em;
+  font-weight: bold;
+  margin: 0;
+  box-shadow: 2px 4px 8px darkgray;
+}
+.img-container{
+  width: 1000px;
+  /* overflow: hidden; */
+}
+.img-container img{
+  height: 400px;
+  margin-right: 100px;
+  transition-duration: 0.3s;
+  margin: 0 auto;
+  display: block;
+}
+.img-container img:hover{
+  transform: scale(0.5);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    z-index: 0;
+}
+
+/* Content section styles */
+.content-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.text-container {
+  flex: 2;
+  display: flex;
+}
+
+.text-container h2 {
+  margin-top: 0;
+}
+
+.text-container p {
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #fa862d;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  margin: 0;
+}
+h2{
+  text-align: center;
+  padding: 10px;
+  font-size: 1em;
+  font-weight: bold;
+}
